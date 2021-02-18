@@ -242,7 +242,7 @@ print("sortedNumbers4:", sortedNumbers4)
 class Shape {
     var numberOfSides = 0
     func simpleDescription() -> String {
-        return "A shape with \(numberOfSides) sides"
+        return "A shape with \(numberOfSides) sides."
     }
 }
 
@@ -251,6 +251,19 @@ var shape = Shape()
 shape.numberOfSides = 7
 let shapeDescription = shape.simpleDescription()
 
+// init初始化函数
+class NamedShape {
+    var numberOfSides: Int = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+    }
+
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+}
 
 
 
