@@ -1,2 +1,2 @@
 # SwiftDemo
-swift tutorial
+basic swift tutorial
